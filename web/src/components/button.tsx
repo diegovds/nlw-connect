@@ -1,8 +1,8 @@
-import { ComponentProps, ReactNode } from 'react'
+import { ComponentProps } from 'react'
 
-interface ButtonProps extends ComponentProps<'button'> {
-  children: ReactNode
-}
+/* eslint-disable */
+interface ButtonProps extends ComponentProps<'button'> {}
+/* eslint-enable */
 
 const Button = (props: ButtonProps) => {
   return (
